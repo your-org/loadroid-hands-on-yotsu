@@ -1,0 +1,13 @@
+loadroid:
+  requests:
+    your-request:
+      method: GET
+      url: https://35.200.88.146
+  scenarios:
+    your-scenario:
+      num-users: 300
+      period: 60
+      requests:
+        - your-request
+  run:
+    - your-scenario
