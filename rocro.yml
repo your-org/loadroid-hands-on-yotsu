@@ -2,7 +2,7 @@ loadroid:
   requests:
     your-request:
       method: GET
-      url: https://35.200.88.146
+      url: http://35.200.88.146
   scenarios:
     your-scenario:
       num-users: 300
