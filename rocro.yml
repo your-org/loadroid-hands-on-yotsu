@@ -3,15 +3,15 @@ loadroid:
     your-request:
       url:
         #GKE
-        #scheme: http
-        #host: 35.200.88.146
+        scheme: http
+        host: 35.200.88.146
         #GAE
-        scheme: https
-        host: yotsu-dev-161121.appspot.com
+        #scheme: https
+        #host: yotsu-dev-161121.appspot.com
   scenarios:
     your-scenario:
-      num-users: 6000
-      period: 5
+      num-users: 10000
+      period: 10
       requests:
         - your-request
   run:
