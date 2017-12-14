@@ -10,7 +10,7 @@ loadroid:
         host: yotsu-dev-161121.appspot.com
   scenarios:
     your-scenario:
-      num-users: 300
+      num-users: 1000
       period: 60
       requests:
         - your-request
